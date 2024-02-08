@@ -82,6 +82,10 @@ a {
 .box-around {
     padding: 25px;
 }
+.box-around-colored{
+    padding: 25px;
+    background-color: #FFB886;
+}
 
 /* Stijlen voor de oranje koppen */
 .oranje-kop {
@@ -121,8 +125,8 @@ a {
 
     /* Breedte van de linker sectie 100% bij kleinere schermen */
     .linkerkant {
-        width: 89%;
-        padding: auto;
+        width: 100%;
+        padding: 0;
     }
 
     /* Aanpassen van afbeeldingsformaten bij kleinere schermen */
